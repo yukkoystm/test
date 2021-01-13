@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>WAKASAMA</title>
+	<link href="css/reset.css" media="all" rel="stylesheet">
+	<link href="css/style.css" media="all" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- スライドショーリンク============================ -->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js">
+	</script>
+	<script src="js/responsiveslides.min.js">
+	</script>
+	<!-- ===============header================================ -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  -->
+	<link href="https://use.fontawesome.com/releases/v5.6.4/css/all.css" rel="stylesheet">
+	<!-- アイコンフォントリンク================================ -->
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body class="l-wrapper">
+	<header>
+		<div class="nav flex">
+			<div id="nav-drawer">
+				<input class="nav-unshown" id="nav-input" type="checkbox"> <label for="nav-input" id="nav-open"><span id="nav"></span></label> <label class="nav-unshown" for="nav-input" id="nav-close"></label>
+				<div id="nav-content">
+					<div id="nav-content-menu">
+						<a href="html/products.html">Products <span class="nav-content-menu-01">商品一覧</span></a>
+					</div>
+					<div id="nav-content-menu-01">
+						<a href="html/about.html">About <span class="nav-content-menu-01">アバウト</span></a>
+					</div>
+					<div id="nav-content-menu-02">
+						<a href="html/stores.html">Stores <span class="nav-content-menu-01">店舗情報</span></a>
+					</div>
+					<div id="nav-content-menu-03">
+						<a href="html/topics.html">Topics <span class="nav-content-menu-01">トピックス</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+    </header>
+    <!-- HEADER =======================================-->
+	<header class="l-header flex">
+		 <a href="index.html"><h1>WAKASAMA</h1></a>
+        <!-- G NAV -->
+		<nav class="gnav flex" id="gnav">
+			<ul class="flex center">
+				<li class="l-gnav__item u-white-bg">
+					<a href="html/products.html"><span class="gnav__menu">Products</span></a>
+				</li>
+				<li class="l-gnav__item u-yamabuki-bg">
+					<a href="html/about.html"><span class="gnav__menu">About</span></a>
+				</li>
+				<li class="l-gnav__item u-sumire-bg">
+					<a href="html/stores.html"><span class="gnav__menu">Stores</span></a>
+				</li>
+				<li class="l-gnav__item u-gray-bg">
+					<a href="html/topics.html"><span class="gnav__menu">Topics</span></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+<!--========= MAIN スライダー画像==========================-->
+	<main class="l-main">
+<!-- スライダー======================================-->
+		<section id="content">
+			<ul id="slides">
+				<li><img alt="01" src="img/top/s01.png"></li>
+				<li><img alt="02" src="img/top/s02.png"></li>
+				<li><img alt="03" src="img/top/s03.png"></li>
+				<li><img alt="04" src="img/top/s04.png"></li>
+			</ul>
+        </section>
+
+<!-- ============================ RECOMMENDED ============================================-->
+		<section class="reco-section">
+            <p class="reco-section__title">RECOMMENDED</p>
+			<div class="reco-section__ineer">
+				<div class="top-recommended__box-01 flex">
+					<div class="top-recommended__img"><img alt="cc-cream" src="img/top/re01.png"></div>
+					<div class="top-recommended__img"><img alt="cc-cream" src="img/top/re02.png"></div>
+				</div>
+				<div class="setsumei">
+					<div class="p-top-recommended__text-box">
+						<h2>TOUKIHADA CLEAM<br>
+						-TAMAHADA-</h2>
+						<p class="p-top-recommended__text-box-text">メンズコスメ初<br>
+						塗るだけで素肌に差が付く<br>新習慣。</p>
+
+						<p class="reco-button-box flex"><a class="reco-button orange-bg" href="html/products.html">
+							<span class="reco-button-arrow">Shop</span>
+							<i class="fas fa-chevron-circle-right fa-2x yajirushi"></i>
+							<br><em class="item">商品ページへ</em>
+
+						</a></p>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="top-recommended__box-02 flex">
+				<div class="top-recommended__sub"><img alt="irasuto" src="img/top/re04.gif"></div>
+				<div class="top-recommended__sub"><img alt="irasuto-2" src="img/top/re03.gif"></div>
+            </div>
+
+		</section>
+<!--===============about================================================= -->
+
+<section class="c-section u-yamabuki-bg p-top-about">
+	<p class="p-top-about__title flex"><img src="img/about/logo.svg" alt="LOOK BEYOND."></p>
+
+	<p class="p-top-about__text">「男らしく」を、脱け出そう。<br>
+		メンズを超えた、魅せるためのスキンケア。<br>
+		WAKASAMAシリーズ、登場。
+	</p>
+
+	<p class="btn-box">
+		<a href="html/about.html" class="c-button u-purple-bg">
+			<span class=" btn-box ">About</span>
+			<i class="fas fa-chevron-circle-right fa-2x yajirushi"></i>
+
+		</a>
+	</p>
+
+</section>
+
+
+<!-- ================================== PRODUCTS =================================================-->
+		<section class="pr-section">
+			<p class="pr-section__title">PRODUCTS</p>
+			<div class="pr-section-row flex">
+<!--================================= オールインワン-クリーム=================================================-->
+				<div class="top-products__item">
+					<div class="top-products__item-img u-yamabuki">
+						<div class="img_wrap">
+						<a href="html/all.html"><img alt="オールインワン-クリーム" src="img/top/pr01.png"></a>
+					</div>
+					</div>
+
+<!--=============================== テキスト=====================================================-->
+					<div class="top-products__item-body">
+						<h3>WAKASAMA ALL IN ONE CLEAM<br>
+						<strong>"オールインワンクリーム"<br>
+						"オールインワン"</strong> <span>150g</span></h3>
+						<p class="top-products__price flex">¥5,500 <span>+TAX</span></p>
+						<p class="top-products__button-box"><a class="c-button" href="#"></a></p>
+
+	<!-- -------------------------------------------------------------------------------------------- -->
+
+	<div class="p-products-detail__button">
+		<th>数量</th>
+		<td>
+			<select name="form-control" >
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+
+			</select>
+		</td>
+
+	</div>
+	<a href="#">
+	<div class="button-kuro">
+		<i>ADD TO CART</i> <br>
+		<span>カートに入れる</span>
+	</div>
+	</a>
+<!-- -------------------------------------------------------------------------------------------- -->
+					</div>
+                </div>
+<!-- ================================ CC CLEAM ===================================================-->
+				<div class="top-products__item">
+					<div class="top-products__item-img u-mizuiro">
+						<div class="img_wrap">
+						<a href="html/cc.html"><img alt="CC CLEAM" src="img/top/re02.png"></a>
+					    </div>
+					</div>
+<!-- テキスト -->
+					<div class="top-products__item-body">
+						<h3>WAKASAMA CC CLEAM<br>
+						<strong>"ワカサマ CC クリーム"<br>
+						"ワカサマ 下地クリーム"</strong> <span>250g</span></h3>
+						<p class="top-products__price flex">¥3,500 <span>+TAX</span></p>
+						<p class="top-products__button-box"><a class="c-button" href="#"></a></p>
+
+	<!-- ------------------------------------------------------------------------------------------->
+
+	<div class="p-products-detail__button">
+		<th>数量</th>
+		<td>
+			<select name="form-control" >
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+
+			</select>
+		</td>
+
+	</div>
+	<a href="#">
+	<div class="button-kuro">
+		<i>ADD TO CART</i> <br>
+		<span>カートに入れる</span>
+	</div>
+	</a>
+	<!-- ---------------------------------------------------------------------------- -->
+					</div>
+                </div>
+
+<!-- =================================洗顔 =======================================================-->
+
+				<div class="top-products__item">
+					<div class="top-products__item-img orenji">
+						<div class="img_wrap">
+						<a href="html/sengan.html"><img alt="洗顔" src="img/top/pr02.png"></a>
+				 	    </div>
+					</div>
+
+
+<!-- =================================テキスト ====================================================-->
+					<div class="top-products__item-body">
+						<h3>WAKASAMA wosh CLEAM<br>
+						<strong>"ワカサマ ウォッシュ クリーム"<br>
+						"ワカサマ 洗顔クリーム"</strong> <span>150g</span></h3>
+						<p class="top-products__price flex">¥2,500 <span>+TAX</span></p>
+						<p class="top-products__button-box"><a class="c-button" href="#"></a></p>
+
+	<!-- -------------------------------------------------------------------------------------------- -->
+
+	<div class="p-products-detail__button">
+		<th>数量</th>
+		<td>
+			<select name="form-control" >
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+
+			</select>
+		</td>
+
+	</div>
+	<a href="#">
+	<div class="button-kuro">
+		<i>ADD TO CART</i> <br>
+		<span>カートに入れる</span>
+	</div>
+	</a>
+
+					</div>
+                </div>
+
+<!-- ==================================コロン=====================================================-->
+				<div class="top-products__item">
+					<div class="top-products__item-img orenji">
+						<div class="img_wrap">
+						<a href="html/coron.html"><img alt="練り香水" src="img/top/pr03.png"></a>
+					    </div>
+					</div>
+<!--================================== テキスト================================================== -->
+					<div class="top-products__item-body">
+						<h3>WAKASAMA COLOGNE CLEAM<br>
+						<strong>"ワカサマ　コロン　クリーム"<br>
+						"ワカサマ 練香水""</strong> <span>100g</span></h3>
+						<p class="top-products__price flex">¥2,500 <span>+TAX</span></p>
+						<p class="top-products__button-box"><a class="c-button" href="#"></a></p>
+
+	<!-- -------------------------------------------------------------------------------------------- -->
+
+	<div class="p-products-detail__button">
+		<th>数量</th>
+		<td>
+			<select name="form-control" >
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+
+			</select>
+		</td>
+
+	</div>
+	<a href="#">
+	<div class="button-kuro">
+		<i>ADD TO CART</i> <br>
+		<span>カートに入れる</span>
+	</div>
+	</a>
+	<!-- ---------------------------------------------------------------------------- -->
+					</div>
+                </div>
+<!-- ==================================日焼け止め ===========================================-->
+				<div class="top-products__item">
+					<div class="top-products__item-img black">
+						<div class="img_wrap">
+						<a href="html/hiyakedome.html"><img alt="日焼け止め" src="img/top/pr04.png"></a>
+					    </div>
+					</div>
+<!--================================== テキスト================================================== -->
+					<div class="top-products__item-body">
+						<h3>WAKASAMA SUN SCREEN<br>
+						<strong>"日焼け止めクリーム"<br>
+						"spf-50 日焼け止め"</strong> <span>100g</span></h3>
+						<p class="top-products__price flex">¥2,500 <span>+TAX</span></p>
+						<p class="top-products__button-box"><a class="c-button" href="#"></a></p>
+
+	<!-- -------------------------------------------------------------------------------------------- -->
+
+	<div class="p-products-detail__button">
+		<th>数量</th>
+		<td>
+			<select name="form-control" >
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+
+			</select>
+		</td>
+
+	</div>
+	<a href="#">
+	<div class="button-kuro">
+		<i>ADD TO CART</i> <br>
+		<span>カートに入れる</span>
+	</div>
+	</a>
+	<!-- ---------------------------------------------------------------------------- -->
+					</div>
+                </div>
+<!-- ==================================ギフトラッピング ===========================================-->
+				<div class="top-products__item">
+					<div class="top-products__item-img black">
+						<div class="img_wrap">
+						<a href="html/gift.html"><img alt="ギフトラッピング" src="img/top/pr05.png"></a>
+					    </div>
+					</div>
+<!--================================== テキスト================================================== -->
+					<div class="top-products__item-body">
+						<h3>WAKASAMA GIFT WRAPPING<br>
+						<strong>"ギフトラッピング"<br>
+						"ラッピング各サイズ"</strong> <span>大・中・小</span></h3>
+						<p class="top-products__price flex">¥300~ <span>+TAX</span></p>
+						<p class="top-products__button-box"><a class="c-button" href="#"></a></p>
+
+	<!-- -------------------------------------------------------------------------------------------- -->
+
+	<div class="p-products-detail__button">
+		<th>数量</th>
+		<td>
+			<select name="form-control" >
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+
+			</select>
+		</td>
+
+	</div>
+	<a href="#">
+	<div class="button-kuro">
+		<i>ADD TO CART</i> <br>
+		<span>カートに入れる</span>
+	</div>
+	</a>
+	<!-- ---------------------------------------------------------------------------- -->
+					</div>
+				</div>
+			</div>
+        </section>
+<!-- ==================================Topics ====================================================-->
+		<section class="tp-section">
+            <p class="tp-section__title">TOPICS</p>
+
+<!-- ==================================topics 1 ===================================================-->
+			<div class="l-row flex" id="feed">
+				<div class="top-topics__item">
+					<figure>
+						<img alt="Topics" src="img/topics/01.jpg">
+					</figure>
+					<div class="top-topics__item-body">
+						<h3>men’s FUDGE 1月号にてご紹介いただきました</h3>
+						<p class="top-topics__date">2020.11.27</p>
+						<div class="top-topics__text">
+							<p>Featured in men’s FUDGE ! men’s FUDGE DEPARTMENT　コスメ特集内でBOTCHANフラワーモイスチャライザーが紹介されました。</p>
+						</div>
+						<a href="wakasama.3 - topics.html"><p class="top-topics__view-more">Read more</p></a>
+
+					</div>
+                </div>
+<!-- ============================================================-->
+<!-- ==================================topics 2 ===================================================-->
+				<div class="top-topics__item">
+					<figure>
+						<img alt="Topics" src="img/topics/02.jpg">
+					</figure>
+					<div class="top-topics__item-body">
+						<h3>デジタルで遊ぼう、部屋の線香花火</h3>
+						<p class="top-topics__date">2020.11.15</p>
+						<div class="top-topics__text">
+							<p>デジタルで遊ぼう、部屋の線香花火。 持ち方次第でホンモノ気分。どれかを選んで再生！ 「オンライン花火の楽しみ方動画」を見た後、スマホを全画面表示にしてお楽しみください。[…]</p>
+						</div>
+						<a href="wakasama.3 - topics.html"><p class="top-topics__view-more">Read more</p></a>
+					</div>
+                </div>
+<!-- ============================================================ -->
+<!-- ==================================topics 3 ===================================================-->
+				<div class="top-topics__item">
+					<figure>
+						<img alt="Topics" src="img/topics/03.jpg">
+					</figure>
+					<div class="top-topics__item-body">
+						<h3>FINE BOYS +BEAUTY VOL2.にてご紹介いただきました</h3>
+						<p class="top-topics__date">2020.11.09</p>
+						<div class="top-topics__text">
+							<p>Featured in FINE BOYS +BEAUTY VOL2.! 『しっとりを実感できる乳液』としてジェルクリームタイプのBOTCHANフラワーモイスチャライザーが紹介されました。クリームタイプよりも水分が多く配 […]</p>
+						</div>
+						<a href="wakasama.3 - topics.html"><p class="top-topics__view-more">Read more</p></a>
+					</div>
+                </div>
+<!--============================================================ -->
+<!-- ===============================topics 4 ===================================================-->
+				<div class="top-topics__item">
+					<figure>
+						<img alt="Topics" src="img/topics/04.jpg">
+					</figure>
+					<div class="top-topics__item-body">
+						<h3>men’s FUDGE 12月号にてご紹介いただきました</h3>
+						<p class="top-topics__date">2020.12.27</p>
+						<div class="top-topics__text">
+							<p>Featured in FINE BOYS +BEAUTY VOL2.!<br>
+							『しっとりを実感できる乳液』としてジェルクリームタイプのWAKASAMAフラワーモイスチャライザーが紹介されました。クリームタイプよりも水分が多く配 […]</p>
+						</div>
+						<a href="wakasama.3 - topics.html"><p class="top-topics__view-more">Read more</p></a>
+					</div>
+                </div>
+<!--================================ もっと見るボタン================================-->
+				<div class="top-topics__item">
+					<p class="button-box flex"><a href="html/topics.html">　 <span class="topics">MORE</span> 　<br>
+						<i class="fas fa-chevron-circle-right fa-2x shop-yajirushi"></i><br>
+
+					<!-- 　 <em class="topics">もっとみる</em> -->　 　
+				</a></p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+<!-- =============================== stores====================================== -->
+
+<section class="c-section p-top-stores">
+
+	<p class="c-button-box">
+		<a href="html/stores.html" class="c-button u-red-bg">
+			<span class="c-button-arrow">
+				Stores
+			</span>
+			<i class="fas fa-chevron-circle-right fa-2x shop-yajirushi"></i>
+			<br>
+			<em class="shop">取り扱い店舗</em>
+		</a>
+	</p>
+</section>
+<!--================================fooater=======================================-->
+<!--=============================== CONTACT ======================================-->
+	<footer class="l-footer flex">
+		<div class="l-footer-inner">
+			<div class="l-footer-ue flex">
+				<div class="l-footer__contact">
+					<p class="l-footer__contact-title">CONTACT</p>
+					<p class="l-footer__contact-mail"><a href="mailto:mail">mail</a></p>
+					<p class="l-footer__contact-tel">tel:03-4976-4976</p>
+                </div>
+<!--================================ sns =============================================-->
+				<div class="l-footer__sns">
+					<p class="l-footer__sns-title">FOLLOW</p>
+					<ul class="follow-me">
+						<li>
+							<a href="https://twitter.com"></a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com"></a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com"></a>
+						</li>
+						<li>
+							<a href="/feed"></a>
+						</li>
+					</ul>
+				</div>
+            </div>
+<!--=============================== footer/menu ===============================-->
+			<ul class="l-footer__menu flex">
+				<li class="l-footer__menu-item">FAQ<br>
+				<span class="under">よくある質問</span></li>
+				<li class="l-footer__menu-item">TERMS OF USE<br>
+				<span class="under">特定商取引法に基づく表記</span></li>
+				<li class="l-footer__menu-item">PRIVACY POLICY<br>
+				<span class="under">プライバシーポリシー</span></li>
+				<li class="l-footer__menu-item">COMPANY INFORMATION<br>
+				<span class="under">会社概要</span></li>
+			</ul>
+			<address class="l-footer-copyright">
+				© WAKASAMA
+			</address>
+		</div>
+    </footer>
+<!-- <p class="c-pagetop" style="display: block;"><a class="scroll" href="#"><img src="assets/images/common/icn_footer_arrow.svg">
+<samp>TOP</samp></a></p> -->
+	<div id="page_top">
+		<a href="#"></a>
+	</div>
+	<script src="js/scroll.js">
+	</script>
+</body>
+</html>
